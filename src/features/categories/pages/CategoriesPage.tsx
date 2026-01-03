@@ -180,7 +180,7 @@ export function CategoriesPage() {
             {...register("name")}
           />
           <Button type="submit" isLoading={isCreating} className="w-full">
-            Add Category
+            Add Category "testing pull requests"
           </Button>
         </form>
       </Modal>
