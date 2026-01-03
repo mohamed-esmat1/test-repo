@@ -23,7 +23,7 @@ import type { Category } from "@/types";
 import noDataImg from "@/assets/images/no-data.svg";
 
 export function CategoriesPage() {
-  // State
+  // State !!!
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(
