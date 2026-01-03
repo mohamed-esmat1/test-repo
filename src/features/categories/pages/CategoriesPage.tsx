@@ -23,7 +23,7 @@ import type { Category } from "@/types";
 import noDataImg from "@/assets/images/no-data.svg";
 
 export function CategoriesPage() {
-  // State
+  // State !!!
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(
@@ -180,7 +180,7 @@ export function CategoriesPage() {
             {...register("name")}
           />
           <Button type="submit" isLoading={isCreating} className="w-full">
-            Add Category
+            Add Category "testing pull requests"
           </Button>
         </form>
       </Modal>
